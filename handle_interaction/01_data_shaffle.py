@@ -15,7 +15,7 @@ if __name__ == '__main__':
         data_shuffle = shuffle_dataset(data_list)
 
         output = "../RawData/interaction/{}/data_shuffle.txt".format(dataset)
-        with open(output, 'a') as f:
+        with open(output, 'w') as f:
             for i in data_shuffle:
                 f.write(str(i) + '\n')
             f.close()
