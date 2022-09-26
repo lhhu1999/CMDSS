@@ -19,9 +19,9 @@ if __name__ == '__main__':
             f.close()
         for item in tqdm(data):
             if dataset == 'Davis':
-                smile = str(item).split(' ')[4]
-            else:
                 smile = str(item).split(' ')[2]
+            else:
+                smile = str(item).split(' ')[0]
             if smile not in smiles:
                 smiles.append(smile)
                 mol = AllChem.AddHs(Chem.MolFromSmiles(smile))
