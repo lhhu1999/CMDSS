@@ -4,7 +4,7 @@ MdDTI: Multi-dimensional drug-target interaction prediction by preserving the co
 ## Setup and dependencies
 Environment:
 * Windows 10. 
-* GPU: RTX 3090 Ti.
+* GPU: NVIDIA RTX 3090 Ti and NVIDIA Quadro P4000 (for KIBA dataset).
 
 Dependencies:
 * python 3.6
