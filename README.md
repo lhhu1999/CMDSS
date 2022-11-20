@@ -1,8 +1,8 @@
 # MdDTI
 MdDTI: Multi-dimensional drug-target interaction prediction by preserving the consistency of attention distribution.
 
-## Setup and dependencies
-Environment:
+## Dependencies
+Environments:
 * Windows 10. 
 * GPU: NVIDIA RTX 3090 Ti and NVIDIA Quadro P4000 (for KIBA dataset).
 
