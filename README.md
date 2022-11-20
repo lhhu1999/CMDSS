@@ -9,6 +9,7 @@ Dependencies:
 * sklearn
 * tqdm
 * rdkit
+* subword-nmt
 
 ## Resources
 * RawData:
