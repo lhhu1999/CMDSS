@@ -2,6 +2,10 @@
 MdDTI: Multi-dimensional drug-target interaction prediction by preserving the consistency of attention distribution.
 
 ## Setup and dependencies
+Environment:
+* Windows 10. 
+* GPU: RTX 3090 Ti.
+
 Dependencies:
 * python 3.6
 * pytorch >=1.2
